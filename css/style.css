@@ -203,3 +203,21 @@ h2 {
     padding-left: 18px;
     padding-bottom: 20px;
 }
+
+.card__button {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    padding: 15px 39px;
+    text-decoration: none;
+    border: 1px solid #FF6A6A;
+    }
+
+.card__button_bottom {
+    width: 100%;
+    text-align: center;
+    margin: 48px 0 95px 0;
+}
