@@ -168,6 +168,38 @@ h2 {
 .card {
     width: 360px;
     min-height: 581px;
-    background-color: grey;
     margin-bottom: 30px;
-    }
+    background: #F8F8F8;
+}
+
+.card__product_name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 25px;
+    padding-left: 18px;
+}
+
+.card__description {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding: 12px 0 18px 25px;
+}
+
+.card__price {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
