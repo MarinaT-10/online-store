@@ -388,3 +388,64 @@ h2 {
 .footer__info:not(:last-child) {
     margin-right: 7px;
 }
+
+.catalog__top {
+    background: #F8F3F4;
+    height: 148px;
+    }
+
+.catalog__top_menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ 
+.catalog__top_menu_left {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.catalog__top_menu_rihtg {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.catalog_menu_decor {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.filter {
+    height: 132px;
+    display: flex;  
+}
+
+.filter__wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filter_menu_left {
+    justify-content: start;
+}
+
+.filter_menu_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
