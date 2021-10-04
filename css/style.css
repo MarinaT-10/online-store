@@ -72,6 +72,7 @@ h1 {
 }
 
 .category__wrap {
+    margin-bottom: 96px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -128,10 +129,7 @@ h1 {
     color: #F16D7F;
 }
 
-.card__product {
-    margin-top: 96px;
-}
- 
+
 h2 {
     font-family: Lato;
     font-style: normal;
@@ -151,13 +149,13 @@ h2 {
     color: #9F9F9F;
     margin-top: 6px;
     text-align: center;
+    margin-bottom: 48px;
 } 
 
 .card__box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 48px;
 }
 
 
@@ -217,37 +215,36 @@ h2 {
     text-align: center;
     margin: 48px 0 95px 0;
 }
-
-.footer {
+.advantages {
     background: #222224;
 }
 
-.footer__top {
+.advantages__list {
     height: 341px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer__info {
+.advantages__info {
     width: 360px;
     height: 134px;
     text-align: center;
 }
 
-.footer_img_avto {
+.advantages_img_avto {
     padding-bottom: 28px;
 }
 
-.footer_img_sale {
+.advantages_img_sale {
     padding-bottom: 19px;
 }
 
-.footer_img_quality {
+.advantages_img_quality {
     padding-bottom: 25px;
 }
 
-.footer_name {
+.advantages__list_name {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -257,7 +254,7 @@ h2 {
     padding-bottom: 16px;
 }
 
-.footer_text_top {
+.advantages__text {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
@@ -267,13 +264,7 @@ h2 {
     color: #FBFBFB;
 }
 
-.footer__center {
-    height: 448px;
-    background-image: url(../img/footer_back.png);
-    background-repeat: no-repeat;
-}
-
-.footer_text_center {
+.feedback__text {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -289,30 +280,34 @@ h2 {
     font-style: italic;
 }
 
-.footer__center {
+.feedback {
+    align-items: center;
+    background-image: url(../img/footer_back.png);
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 448px;
 }
 
-.footer__center_form {
+.feedback__group {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.footer__center_left {
+.feedback__left {
     min-height: 225px;
     width: 360px;
     text-align: center;
 }
 
-.footer__center_rigth {
+.feedback__right {
     width: 557px;
     min-height: 142px;
 }
 
-.footer__center_name {
+.feedback__name {
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -332,14 +327,14 @@ h2 {
     color: #222224;
 }
 
-.footer__button{
+.feedback__button{
     display: flex;
     justify-content: center;
     margin-top: 39px;
 }
 
 
-.footer__button_rigth {
+.feedback__button_rigth {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -354,7 +349,7 @@ h2 {
     text-align: center;
     border-radius: 0 12px 12px 0;
 }
-.footer__email {
+.feedback__email {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -368,11 +363,11 @@ h2 {
     border-radius: 12px 0 0 12px;
 }
 
-.footer__bottom {
+.footer {
     background: #222224;
 }
 
-.footer__bottom_wrap {
+.footer__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -388,6 +383,199 @@ h2 {
     color: #FBFBFB;
 }
 
-.footer_bottom_info:not(:last-child) {
+.footer__info {
+    text-align: center;
+    background: #FFFFFF;
+    width: 32px;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+.footer__info:not(:last-child) {
     margin-right: 7px;
 }
+
+.catalog__top {
+    background: #F8F3F4;
+    height: 148px;
+    }
+
+.catalog__top_menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ 
+.catalog__top_menu_left {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.catalog__top_menu_rihtg {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.catalog_menu_decor {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.filter {
+    height: 132px;
+}
+
+.filter__wrap {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.filter_menu_left {
+    justify-content: start;
+}
+
+.filter_menu_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter__list:not(:last-child) {
+    margin-right: 28px;
+}
+
+.list__button_wrap {
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    text-align: center;
+    width: 284px;
+    margin: 48px auto 96px;
+}
+
+.list__button {
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+.list__button_left {
+    padding-right: 14px;
+    
+}
+
+.product__photo {
+    height: 777px;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+
+.product_img {
+    height: 597px;
+}
+
+.product__features {
+    margin-bottom: 128px;
+    border: 1px solid #EAEAEA;
+    margin-top: -50px;
+    background: #FFFFFF;
+}
+
+
+.product__features_name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin: 65px auto 27px;
+}
+
+.product__features_black {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+
+.product__features_text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    width: 555px;
+    margin: 48px auto 32px;
+}
+
+.product__features_price {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    margin-bottom: 65px;
+    border-bottom: 1px solid #EAEAEA;
+    text-align: center
+}
+
+.product__features_menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.product__features_list:not(:last-child) {
+    margin-right: 23px;
+}
+
+.product__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__feature_button {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    padding: 15px 57px;
+    background: none;
+    border: 1px solid #FF6A6A;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 48px auto 64px;
+
+}
+
+.product__card {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
