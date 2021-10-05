@@ -166,6 +166,54 @@ h2 {
     background: #F8F8F8;
 }
 
+.card-img-block {
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+    display: block;
+}
+
+.card-overlay {
+    background: rgba(58, 56, 56, 0.86);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+.card-cart {
+    padding-right: 11px;
+}
+
+.card-add {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 14px 16px 13px 14px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card__product_name {
     font-family: Lato;
     font-style: normal;
