@@ -1,0 +1,30 @@
+.footer {
+    background: #222224;
+    &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+    }
+
+    & p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    }
+
+    &__info {
+        text-align: center;
+        background: #FFFFFF;
+        width: 32px;
+        padding: 10px 0;
+        vertical-align: middle;
+        &:not(:last-child) {
+            margin-right: 7px;
+        }
+    }
+
+}
