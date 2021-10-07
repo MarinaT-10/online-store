@@ -783,6 +783,11 @@ h2 {
 }
 
 .shopping-cart__button {
+    display: flex;
+    justify-content: center;
+}
+
+.shopping-cart__button button {
     margin-top: 17px;
     font-family: Lato;
     font-style: normal;
@@ -793,5 +798,28 @@ h2 {
     padding: 15px 43px 16px 41px;
     border: none;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.shopping-cart__continue {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 128px;
+    margin-top: 52px;
+}
+
+.shopping-cart__continue button{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 17px 40px 16px;
+    border: 1px solid #A4A4A4;
+    background: transparent;
+}
+
+.shopping-cart__continue--button {
+    margin-right: 192px;
 }
 
