@@ -134,6 +134,19 @@
   padding-bottom: 6px;
 }
 
+.shopping-cart__text input {
+  height: 24px;
+  width: 44px;
+  border: 1px solid #eaeaea;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #656565;
+  text-align: center;
+  margin-left: 24px;
+}
+
 .shopping-cart__close {
   height: 18px;
   width: 18px;
@@ -258,7 +271,7 @@
   line-height: 17px;
   color: #000000;
   padding: 17px 40px;
-  border: 1px solid #A4A4A4;
+  border: 1px solid #a4a4a4;
   background: none;
 }
 
