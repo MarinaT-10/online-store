@@ -1,7 +1,7 @@
 @import "blocks/header";
-@import "blocks/_var.scss/";
-@import "blocks/footer.scss";
-@import "blocks/mixin.scss";
+@import "blocks/var";
+@import "blocks/footer";
+@import "blocks/mixin";
 @import "blocks/cart-top";
 @import "blocks/shopping";
 
@@ -17,7 +17,7 @@
 }
 
 .intro {
-    background-color: #F1E4E6;
+    background-color: #f1e4e6;
     height: 764px;
     margin: 0 0 65px 0;
 }
@@ -34,9 +34,9 @@
 
 .intro__text {
     max-width: 377px;
-    border-left: 12px solid #F16D7F;
+    border-left: 12px solid #f16d7f;
     padding-left: 16px;
-    }
+}
 
 h1 {
     color: #222222;
@@ -50,13 +50,13 @@ h1 {
 .decor {
     font-weight: bold;
     font-size: 32px;
-    line-height: 38px;    
-    color: #222222;    
+    line-height: 38px;
+    color: #222222;
     box-sizing: border-box;
 }
 
 .decor_pink {
-    color: #F16D7F;
+    color: #f16d7f;
 }
 
 .category__wrap {
@@ -107,16 +107,15 @@ h1 {
     font-weight: normal;
     font-size: 16px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .category__decor {
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
-    color: #F16D7F;
+    color: #f16d7f;
 }
-
 
 h2 {
     font-family: Lato;
@@ -127,18 +126,18 @@ h2 {
     color: #222222;
     text-align: center;
 }
-    
+
 .card__text {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    color: #9F9F9F;
+    color: #9f9f9f;
     margin-top: 6px;
     text-align: center;
     margin-bottom: 48px;
-} 
+}
 
 .card__box {
     display: flex;
@@ -146,12 +145,11 @@ h2 {
     justify-content: space-between;
 }
 
-
 .card {
     width: 360px;
     min-height: 581px;
     margin-bottom: 30px;
-    background: #F8F8F8;
+    background: #f8f8f8;
 }
 
 .card-img-block {
@@ -193,9 +191,9 @@ h2 {
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 14px 16px 13px 14px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     background: none;
     display: flex;
     justify-content: center;
@@ -219,7 +217,7 @@ h2 {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #5D5D5D;
+    color: #5d5d5d;
     padding: 12px 0 18px 25px;
 }
 
@@ -229,7 +227,7 @@ h2 {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    color: #F16D7F;
+    color: #f16d7f;
     padding-left: 18px;
     padding-bottom: 20px;
 }
@@ -240,11 +238,11 @@ h2 {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    color: #F26376;
+    color: #f26376;
     padding: 15px 39px;
     text-decoration: none;
-    border: 1px solid #FF6A6A;
-    }
+    border: 1px solid #ff6a6a;
+}
 
 .card__button_bottom {
     width: 100%;
@@ -286,7 +284,7 @@ h2 {
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
-    color: #FBFBFB;
+    color: #fbfbfb;
     padding-bottom: 16px;
 }
 
@@ -297,7 +295,7 @@ h2 {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    color: #FBFBFB;
+    color: #fbfbfb;
 }
 
 .feedback__text {
@@ -369,7 +367,6 @@ h2 {
     margin-top: 39px;
 }
 
-
 .feedback__button_rigth {
     font-family: Lato;
     font-style: normal;
@@ -379,12 +376,12 @@ h2 {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 7px 7px 6px 8px;
-    background: #F16D7F;
+    background: #f16d7f;
     text-align: center;
     border-radius: 0 12px 12px 0;
-     border: none;
+    border: none;
 }
 .feedback__email {
     font-family: Lato;
@@ -394,35 +391,32 @@ h2 {
     line-height: 17px;
     color: #222224;
     opacity: 0.67;
-    background: #E1E1E1;
+    background: #e1e1e1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 7px 64px 6px 22px;
     border-radius: 12px 0 0 12px;
     border: none;
 }
 
-
-
 .catalog__top {
-    background: #F8F3F4;
+    background: #f8f3f4;
     height: 148px;
-    }
+}
 
 .catalog__top_menu {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
- 
+
 .catalog__top_menu_left {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
-    color: #F16D7F;
+    color: #f16d7f;
 }
 
 .catalog__top_menu_rihtg {
@@ -440,7 +434,7 @@ h2 {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    color: #F16D7F;
+    color: #f16d7f;
 }
 
 .filter {
@@ -453,7 +447,6 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-
 
 .filter_menu_left {
     justify-content: start;
@@ -470,8 +463,8 @@ h2 {
 }
 
 .list__button_wrap {
-    background: #FFFFFF;
-    border: 1px solid #EBEBEB;
+    background: #ffffff;
+    border: 1px solid #ebebeb;
     text-align: center;
     width: 284px;
     margin: 48px auto 96px;
@@ -484,12 +477,11 @@ h2 {
 
 .list__button_left {
     padding-right: 14px;
-    
 }
 
 .product__photo {
     height: 777px;
-    background: #F7F7F7;
+    background: #f7f7f7;
     display: flex;
     justify-content: center;
 }
@@ -500,11 +492,10 @@ h2 {
 
 .product__features {
     margin-bottom: 128px;
-    border: 1px solid #EAEAEA;
+    border: 1px solid #eaeaea;
     margin-top: -50px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
-
 
 .product__features_name {
     font-family: Lato;
@@ -512,7 +503,7 @@ h2 {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #F16D7F;
+    color: #f16d7f;
     margin: 65px auto 27px;
 }
 
@@ -522,7 +513,7 @@ h2 {
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #4D4D4D;
+    color: #4d4d4d;
 }
 
 .product__features_text {
@@ -532,7 +523,7 @@ h2 {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    color: #5E5E5E;
+    color: #5e5e5e;
     width: 555px;
     margin: 48px auto 32px;
 }
@@ -543,10 +534,10 @@ h2 {
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
-    color: #EF5B70;
+    color: #ef5b70;
     margin-bottom: 65px;
-    border-bottom: 1px solid #EAEAEA;
-    text-align: center
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
 }
 
 .product__features_menu {
@@ -571,19 +562,17 @@ h2 {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    color: #F26376;
+    color: #f26376;
     padding: 15px 57px;
     background: none;
-    border: 1px solid #FF6A6A;
+    border: 1px solid #ff6a6a;
     text-align: center;
     display: flex;
     justify-content: center;
     margin: 48px auto 64px;
-
 }
 
 .product__card {
     margin-top: 128px;
     margin-bottom: 128px;
 }
-

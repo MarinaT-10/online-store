@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c1b0bb4fe7.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -25,7 +28,7 @@
         </div>
     </header>
 <main>
-    <section class="shopping">
+    <section class="cart-top">
         <div class="container">
             <div class="cart-top__title">SHOPPING CART</div>
     </section>
@@ -70,14 +73,21 @@
                             <input  id="name" placeholder="Bangladesh"><br>
                             <input  id="name" placeholder="State"><br>
                             <input  id="name" placeholder="Postcode"><br>
-                            <input class="shopping-cart__size" id="name" placeholder="GET A QUOTE"><br>
-                    </form>
+                            <button class="shopping-cart__size">GET A QUOTE</button>
+                            <!-- <input class="shopping-cart__size" id="name" placeholder="GET A QUOTE"><br>
+                    </form> -->
                     <div class="shopping-cart__checkout">
                         <h3>SUB TOTAL         $900</h3>
                         <h2>GRAND TOTAL      <span>$900</span></h2>
-                        <button class="shopping-cart__button">PROCEED TO CHECKOUT</button>
+                        <div class="shopping-cart__button">
+                            <button>PROCEED TO CHECKOUT</button>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="shopping-cart__bottom">
+                <button>CLEAR SHOPPING CART</button>
+                <button>CONTINUE SHOPPING</button>
             </div>
         </div>
     </section>
