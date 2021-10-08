@@ -4,6 +4,7 @@
 @import "blocks/mixin";
 @import "blocks/cart-top";
 @import "blocks/shopping";
+@import "blocks/feedback";
 
 * {
     margin: 0;
@@ -298,58 +299,6 @@ h2 {
     color: #fbfbfb;
 }
 
-.feedback__text {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #222224;
-    box-sizing: border-box;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 30px;
-}
-.footer__text_decor {
-    font-style: italic;
-}
-
-.feedback {
-    align-items: center;
-    background-image: url(../img/footer_back.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 448px;
-}
-
-.feedback__group {
-    display: flex;
-    justify-content: center;
-}
-
-.feedback__left {
-    min-height: 225px;
-    width: 360px;
-    text-align: center;
-}
-
-.feedback__right {
-    width: 557px;
-    min-height: 142px;
-}
-
-.feedback__name {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 167.2%;
-    text-align: center;
-    color: #222224;
-}
 
 .footer__center_text {
     font-family: Lato;
@@ -361,42 +310,7 @@ h2 {
     color: #222224;
 }
 
-.feedback__button {
-    display: flex;
-    justify-content: center;
-    margin-top: 39px;
-}
 
-.feedback__button_rigth {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    padding: 7px 7px 6px 8px;
-    background: #f16d7f;
-    text-align: center;
-    border-radius: 0 12px 12px 0;
-    border: none;
-}
-.feedback__email {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #222224;
-    opacity: 0.67;
-    background: #e1e1e1;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 7px 64px 6px 22px;
-    border-radius: 12px 0 0 12px;
-    border: none;
-}
 
 .catalog__top {
     background: #f8f3f4;
