@@ -22,9 +22,18 @@
         width: 32px;
         padding: 10px 0;
         vertical-align: middle;
+
+        &:hover {
+            background: $text-color;
+            color: #FFFFFF;
+        }
+
+        &:active {
+            background: $text-color;
+            color: #FFFFFF;
+        }
         &:not(:last-child) {
             margin-right: 7px;
         }
     }
-
 }
