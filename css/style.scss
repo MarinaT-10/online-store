@@ -5,6 +5,8 @@
 @import "blocks/cart-top";
 @import "blocks/shopping";
 @import "blocks/feedback";
+@import "blocks/intro";
+@import "blocks/advantages";
 
 * {
     margin: 0;
@@ -17,27 +19,7 @@
     padding: 0 10px;
 }
 
-.intro {
-    background-color: #f1e4e6;
-    height: 764px;
-    margin: 0 0 65px 0;
-}
 
-.intro__wrap {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background-image: url(../img/men.png);
-    background-repeat: no-repeat;
-    background-position: -212px bottom;
-}
-
-.intro__text {
-    max-width: 377px;
-    border-left: 12px solid #f16d7f;
-    padding-left: 16px;
-}
 
 h1 {
     color: #222222;
@@ -48,17 +30,7 @@ h1 {
     line-height: 58px;
 }
 
-.decor {
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 38px;
-    color: #222222;
-    box-sizing: border-box;
-}
 
-.decor_pink {
-    color: #f16d7f;
-}
 
 .category__wrap {
     margin-bottom: 96px;
@@ -249,54 +221,6 @@ h2 {
     width: 100%;
     text-align: center;
     margin: 48px 0 95px 0;
-}
-.advantages {
-    background: #222224;
-}
-
-.advantages__list {
-    height: 341px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.advantages__info {
-    width: 360px;
-    height: 134px;
-    text-align: center;
-}
-
-.advantages_img_avto {
-    padding-bottom: 28px;
-}
-
-.advantages_img_sale {
-    padding-bottom: 19px;
-}
-
-.advantages_img_quality {
-    padding-bottom: 25px;
-}
-
-.advantages__list_name {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    color: #fbfbfb;
-    padding-bottom: 16px;
-}
-
-.advantages__text {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #fbfbfb;
 }
 
 
