@@ -640,6 +640,10 @@
   border: none;
 }
 
+.card__overlay--rigth {
+  padding-right: 11px;
+}
+
 .card__add {
   font-style: normal;
   font-weight: normal;
@@ -672,7 +676,7 @@
   padding-left: 18px;
 }
 
-.card__text .card__text--text {
+.card__text--text {
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -685,7 +689,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #f16d7f;
+  color: #F16D7F;
   padding-left: 18px;
   padding-bottom: 20px;
 }
@@ -695,6 +699,12 @@
 }
 
 .card__button {
+  width: 100%;
+  text-align: center;
+  margin: 48px 0 95px 0;
+}
+
+.card__button button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -703,17 +713,12 @@
   padding: 15px 39px;
   text-decoration: none;
   border: 1px solid #ff6a6a;
+  background: none;
 }
 
-.card__button:hover {
-  background: #f26376;
-  color: #FFFFFF;
-}
-
-.card__button_bottom {
-  width: 100%;
-  text-align: center;
-  margin: 48px 0 95px 0;
+.card__button button:hover {
+  background: #F16D7F;
+  color: #ffffff;
 }
 
 * {
@@ -870,6 +875,7 @@
   line-height: 17px;
   color: #f16d7f;
   margin: 65px auto 27px;
+  text-align: center;
 }
 
 .product__features_black {
@@ -879,6 +885,7 @@
   font-size: 18px;
   line-height: 22px;
   color: #4d4d4d;
+  text-align: center;
 }
 
 .product__features_text {

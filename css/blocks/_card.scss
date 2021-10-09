@@ -1,21 +1,21 @@
-.card-box__wrap {
-    font-style: normal;
-    font-weight: normal;
+.card-box {
+    &__wrap {
+        font-style: normal;
+        font-weight: normal;
     }
-
-.card-box__title {
-    font-size: 30px;
-    line-height: 36px;
-    color: #222222;
-    text-align: center;
-}
-.card-box__text {
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #9f9f9f;
-    margin-top: 6px;
-    margin-bottom: 48px;
+    &__title {
+        font-size: 30px;
+        line-height: 36px;
+        color: #222222;
+        text-align: center;
+    }
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #9f9f9f;
+        margin-top: 6px;
+        margin-bottom: 48px;
+    }
 }
 
 .card-group {
@@ -29,77 +29,77 @@
     min-height: 581px;
     margin-bottom: 30px;
     background: #f8f8f8;
-}
-.card__img {
-    position: relative;
-    margin-bottom: 25px;
-}
 
-.card__img--top {
-    width: 100%;
-    display: block;
-}
-
-.card__overlay {
-    background: rgba(58, 56, 56, 0.86);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: 0.5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-}
-
-.card__add {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #ffffff;
-    padding: 14px 15px 13px 14px;
-    border: 1px solid #ffffff;
-    background: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    // img {
-    //     padding-right: 11px;
-    // }
-}
-.card__text {
-    font-style: normal;
-    & h4 {
-        font-weight: bolid;
-        font-size: 13px;
-        line-height: 16px;
-        color: #000000;
-        padding-left: 18px;
+    &__img {
+        position: relative;
+        margin-bottom: 25px;
+        &--top {
+            width: 100%;
+            display: block;
+        }
     }
 
-    .card__text--text {
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 17px;
-        color: #5d5d5d;
-        padding: 12px 0 18px 25px;
+    &__overlay {
+        background: rgba(58, 56, 56, 0.86);
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+
+        &--rigth {
+            padding-right: 11px;
+        }
     }
 
-    & strong {
+    &__add {
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        color: #f16d7f;
-        padding-left: 18px;
-        padding-bottom: 20px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ffffff;
+        padding: 14px 15px 13px 14px;
+        border: 1px solid #ffffff;
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text {
+        font-style: normal;
+        & h4 {
+            font-weight: bolid;
+            font-size: 13px;
+            line-height: 16px;
+            color: #000000;
+            padding-left: 18px;
+        }
+
+        &--text {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #5d5d5d;
+            padding: 12px 0 18px 25px;
+        }
+
+        & strong {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: $text-color;
+            padding-left: 18px;
+            padding-bottom: 20px;
+        }
     }
 }
 
@@ -108,23 +108,23 @@
 }
 
 .card__button {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #f26376;
-    padding: 15px 39px;
-    text-decoration: none;
-    border: 1px solid #ff6a6a;
-}
-
-.card__button:hover {
-    background: #f26376;
-    color: #FFFFFF;
-}
-
-.card__button_bottom {
     width: 100%;
     text-align: center;
     margin: 48px 0 95px 0;
+
+    & button {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #f26376;
+        padding: 15px 39px;
+        text-decoration: none;
+        border: 1px solid #ff6a6a;
+        background: none;
+    }
+    & button:hover {
+        background: $text-color;
+        color: #ffffff;
+    }
 }
