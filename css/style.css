@@ -491,29 +491,7 @@
   color: #fbfbfb;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.container {
-  max-width: 1160px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-h1 {
-  color: #222222;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 58px;
-}
-
-.category__wrap {
+.category {
   margin-bottom: 96px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -540,21 +518,37 @@ h1 {
           align-items: center;
 }
 
-.category__item_woman {
+.category__item--woman {
   background-image: url(../img/category_woman.png);
 }
 
-.category__item_man {
+.category__item--man {
   background-image: url(../img/category_men.png);
 }
 
-.category__item_kids {
+.category__item--kids {
   background-image: url(../img/category_kids.png);
 }
 
-.category__item_accesories {
+.category__item--accesories {
   height: 180px;
   background-image: url(../img/category_accesories.png);
+}
+
+.category__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.category__text span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
 }
 
 .category__item:not(:last-child) {
@@ -562,24 +556,26 @@ h1 {
   margin: 0 0 30px 0;
 }
 
-.category__text {
-  max-width: 160px;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.text {
-  font-family: lato;
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1 {
+  color: #222222;
+  font-family: Lato;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.category__decor {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  color: #f16d7f;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
 }
 
 h2 {

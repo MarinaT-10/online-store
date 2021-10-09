@@ -7,6 +7,7 @@
 @import "blocks/feedback";
 @import "blocks/intro";
 @import "blocks/advantages";
+@import "blocks/category";
 
 * {
     margin: 0;
@@ -32,63 +33,7 @@ h1 {
 
 
 
-.category__wrap {
-    margin-bottom: 96px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
-.category__item {
-    width: 100%;
-    height: 260px;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.category__item_woman {
-    background-image: url(../img/category_woman.png);
-}
-
-.category__item_man {
-    background-image: url(../img/category_men.png);
-}
-
-.category__item_kids {
-    background-image: url(../img/category_kids.png);
-}
-
-.category__item_accesories {
-    height: 180px;
-    background-image: url(../img/category_accesories.png);
-}
-
-.category__item:not(:last-child) {
-    width: 360px;
-    margin: 0 0 30px 0;
-}
-
-.category__text {
-    max-width: 160px;
-}
-
-.text {
-    font-family: lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.category__decor {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    color: #f16d7f;
-}
 
 h2 {
     font-family: Lato;
