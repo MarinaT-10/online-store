@@ -10,6 +10,7 @@
 @import "blocks/category";
 @import "blocks/card";
 @import "blocks/registration";
+@import "blocks/filter";
 
 * {
     margin: 0;
@@ -73,30 +74,7 @@
     color: #f16d7f;
 }
 
-.filter {
-    height: 132px;
-}
 
-.filter__wrap {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.filter_menu_left {
-    justify-content: start;
-}
-
-.filter_menu_right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.filter__list:not(:last-child) {
-    margin-right: 28px;
-}
 
 .list__button_wrap {
     background: #ffffff;
