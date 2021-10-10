@@ -1,0 +1,83 @@
+.feedback {
+    height: 448px;
+    background-image: url(../img/footer_back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222224;
+
+    &__group {
+        height: 448px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left {
+        width: 360px;
+        height: 225px;
+
+        & span {
+            font-style: italic;
+        }
+    }
+
+    &__right {
+        width: 557px;
+        height: 137px;
+
+        & h3 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 167.2%;
+            text-align: center;
+            color: #222224;
+        }
+
+        & input {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222224;
+            opacity: 0.67;
+            background: #e1e1e1;
+            padding: 7px 64px 6px 22px;
+            border-radius: 12px 0 0 12px;
+            border: none;
+        }
+
+        & button {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+            padding: 7px;
+            background: #f16d7f;
+            text-align: center;
+            border-radius: 0 12px 12px 0;
+            border: none;
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 39px;
+    }
+
+    // Задаем feedback доп. отступ сверху на странице product.html
+    &__top {
+        margin-top: 98px;
+    }
+}

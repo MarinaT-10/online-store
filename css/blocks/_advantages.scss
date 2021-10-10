@@ -1,0 +1,44 @@
+.advantages {
+    background: #222224;
+
+    &__list {
+        height: 341px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info {
+        width: 360px;
+        height: 134px;
+        text-align: center;
+
+        &--avto {
+            padding-bottom: 28px;
+        }
+        &--sale {
+            padding-bottom: 28px;
+        }
+        &--quality {
+            padding-bottom: 28px;
+        }
+
+        & h4 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            color: #fbfbfb;
+            padding-bottom: 16px;
+        }
+        
+        & p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #fbfbfb;
+        }
+    }
+}
