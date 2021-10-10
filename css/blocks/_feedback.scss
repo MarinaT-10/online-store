@@ -75,4 +75,9 @@
         justify-content: center;
         margin-top: 39px;
     }
+
+    // Задаем feedback доп. отступ сверху на странице product.html
+    &__top {
+        margin-top: 98px;
+    }
 }
