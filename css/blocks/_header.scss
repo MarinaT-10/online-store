@@ -1,0 +1,19 @@
+.header {
+    background-color: #222222;
+    padding: 19px 0;
+    
+    &__wrap {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    &__logo {
+        margin-right: 41px;
+    }
+    
+    &__item {
+        &:not(:last-child) {
+        margin-right: 33px;    
+        }
+    }
+}
