@@ -31,6 +31,7 @@
     border: none;
 }
 
+
 .filter ::-webkit-details-marker {display: none;}
 
 .filter[open] {
@@ -41,6 +42,7 @@
   color: #EF5B70;
   outline: none;
   border: none;
+  
 }
 
 
@@ -65,7 +67,7 @@
 }
 
 .filter-list {
-    font-style: normal;
+font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 17px;

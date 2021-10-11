@@ -107,8 +107,9 @@
         line-height: 13px;
         color: #4a4a4a;
         background: transparent;
-        border: 1px solid #a4a4a4;
+        border: 1px solid #A4A4A4;
         padding: 11px 14px;
+        cursor: pointer;
     }
 
     &__checkout {
@@ -161,6 +162,7 @@
             padding: 15px 43px 16px 41px;
             border: none;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            
         }
     }
     &__bottom {
@@ -179,6 +181,7 @@
             padding: 17px 40px;
             border: 1px solid #a4a4a4;
             background: none;
+            cursor: pointer;
         }
     }
 
@@ -193,8 +196,9 @@
             line-height: 17px;
             color: #ffffff;
             padding: 17px 40px 16px;
-            border: 1px solid #a4a4a4;
+            border: 1px solid #A4A4A4;
             background: $text-color;
+            cursor: pointer;
         }
     }
 }

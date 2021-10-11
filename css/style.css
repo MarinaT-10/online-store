@@ -204,8 +204,9 @@
   line-height: 13px;
   color: #4a4a4a;
   background: transparent;
-  border: 1px solid #a4a4a4;
+  border: 1px solid #A4A4A4;
   padding: 11px 14px;
+  cursor: pointer;
 }
 
 .shopping-cart__checkout {
@@ -287,6 +288,7 @@
   padding: 17px 40px;
   border: 1px solid #a4a4a4;
   background: none;
+  cursor: pointer;
 }
 
 .shopping-cart__button {
@@ -305,8 +307,9 @@
   line-height: 17px;
   color: #ffffff;
   padding: 17px 40px 16px;
-  border: 1px solid #a4a4a4;
+  border: 1px solid #A4A4A4;
   background: #F16D7F;
+  cursor: pointer;
 }
 
 .feedback {
@@ -349,7 +352,17 @@
   height: 137px;
 }
 
-.feedback__right h3 {
+.feedback__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 39px;
+}
+
+.feedback__button h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -358,7 +371,7 @@
   color: #222224;
 }
 
-.feedback__right input {
+.feedback__button input {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -371,7 +384,7 @@
   border: none;
 }
 
-.feedback__right button {
+.feedback__button button {
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -390,16 +403,7 @@
   text-align: center;
   border-radius: 0 12px 12px 0;
   border: none;
-}
-
-.feedback__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 39px;
+  cursor: pointer;
 }
 
 .feedback__top {
@@ -453,7 +457,7 @@
 }
 
 .advantages {
-  background: #222224;
+  background: #232325;
 }
 
 .advantages__list {
@@ -709,6 +713,7 @@
 }
 
 .card__button button {
+  cursor: pointer;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -718,11 +723,15 @@
   text-decoration: none;
   border: 1px solid #ff6a6a;
   background: none;
+  -webkit-transition: all 2s;
+  transition: all 2s;
 }
 
 .card__button button:hover {
   background: #F16D7F;
   color: #ffffff;
+  -webkit-transform: rotateY(360deg) scale(1.5) translateY(25px);
+          transform: rotateY(360deg) scale(1.5) translateY(25px);
 }
 
 .registration {
@@ -816,6 +825,7 @@
   padding: 16px 29px;
   background: #f16d7f;
   border: none;
+  cursor: pointer;
 }
 
 .registration__gender {
