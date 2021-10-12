@@ -73,6 +73,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        & img {
+            padding-right: 11px;
+        }
     }
     &__text {
         font-style: normal;
@@ -124,12 +128,11 @@
         text-decoration: none;
         border: 1px solid #ff6a6a;
         background: none;
-        transition: all 3s;
-        
+        transition: all 3s;       
+            
     }
     & button:hover {
         background: $text-color;
         color: #ffffff;
-        transform: rotateY(360deg) scale(1.5) translateY(25px);
         }
 }
