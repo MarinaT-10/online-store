@@ -84,15 +84,20 @@
         &:hover {
             background: $text-color;
             color: #ffffff;
-        }
+                    }
+        
 
         & img {
             padding-right: 23px;
         }
     }
+
+    &__link {
+        text-decoration: none;
+    }
 }
 
-// .product__card {
-//     margin-top: 128px;
-//     margin-bottom: 128px;
-// }
+.product__card {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}

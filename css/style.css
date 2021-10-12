@@ -680,6 +680,10 @@
   font-style: normal;
 }
 
+.card__text a {
+  text-decoration: none;
+}
+
 .card__text h4 {
   font-weight: bolid;
   font-size: 13px;
@@ -1151,6 +1155,15 @@
 
 .product button img {
   padding-right: 23px;
+}
+
+.product__link {
+  text-decoration: none;
+}
+
+.product__card {
+  margin-top: 128px;
+  margin-bottom: 128px;
 }
 
 * {
