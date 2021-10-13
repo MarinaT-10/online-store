@@ -1,0 +1,205 @@
+@media (max-width: 667px) {
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .header__item:not(:first-child) {
+        display: none;
+    }
+
+    .intro {
+        box-sizing: border-box;
+        min-height: 363px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 64px;
+
+        &__wrap {
+            background-image: none;
+        }
+
+        &__text {
+            width: 80%;
+        }
+
+        & h1 {
+            font-size: 38px;
+            line-height: 46px;
+        }
+
+        & span {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    .category {
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+    .category__item:not(:last-child) {
+        width: 100%;
+        margin: 0 0 32px 0;
+    }
+
+    .card-box__text {
+        margin-bottom: 64px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+
+        &__button {
+            margin: 40px 0 96px 0;
+        }
+    }
+
+    .advantages {
+        &__list {
+            min-height: 610px;
+            flex-direction: column;
+            justify-content: space-around;
+
+            &__info {
+                width: 341px;
+            }
+        }
+    }
+
+    .feedback {
+        height: 550px;
+        background-position: center bottom;
+        background-image: url(../img/feedback-tablet.jpg);
+
+        &__group {
+            height: 550px;
+            background-size: 100%;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__left {
+            margin-bottom: 59px;
+            width: 343px;
+        }
+        &__right {
+            width: 341px;
+        }
+    }
+
+    .footer {
+        height: 143px;
+        &__wrap {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        &__left {
+            order: 2;
+        }
+        &__right {
+            order: 1;
+            margin: 40px;
+        }
+    }
+    .catalog-menu {
+        &__group {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__left {
+            margin-bottom: 32px;
+        }
+    }
+
+    .filter-box {
+        height: 81px;
+    }
+
+    .filter span {
+        display: none;
+    }
+    .filter ::-webkit-details-marker {
+        display: none;
+    }
+
+    .filter__list {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .filter_menu_right {
+        min-width: 260px;
+    }
+
+    .list__button_wrap {
+        margin-bottom: 64px;
+        margin-top: 40px;
+    }
+
+    .filter__list:not(:last-child) {
+        margin-right: 23px;
+    }
+
+    .product {
+        margin-top: 0;
+        margin-bottom: 64px;
+        width: 100%;
+
+        &__text {
+            width: 326px;
+        }
+        &__price {
+            padding-bottom: 32px;
+        }
+        &__menu {
+            margin-top: 48px;
+        }
+
+        &__list {
+            font-size: 10px;
+            line-height: 12px;
+        }
+    }
+
+    .slider {
+        width: 100%;
+        height: 454px;
+
+        &__img {
+            width: 90%;
+            height: 454px;
+        }
+    }
+
+    .product__card {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .shopping-cart {
+        margin-top: 39px;
+    }
+
+    .registration {
+        margin: 40px auto 96px;
+        height: 895px;
+
+        &__wrap {
+            flex-direction: column;
+        }
+        &__forma {
+            margin-bottom: 40px;
+        }
+
+        &__info {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+}
