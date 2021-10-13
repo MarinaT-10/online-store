@@ -1171,8 +1171,7 @@
 
 @media (max-width: 1024px) {
   .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 16px;
   }
   .intro {
     height: 80vh;
@@ -1183,7 +1182,7 @@
     background-size: 62%;
   }
   .intro__text {
-    width: 45%;
+    width: 44%;
   }
   .intro h1 {
     font-size: 44px;
@@ -1198,6 +1197,43 @@
   }
   .category__item:not(:last-child) {
     margin: 0 0 19px 0;
+  }
+  card-box__text {
+    margin-bottom: 72px;
+  }
+  .card {
+    margin-bottom: 19px;
+  }
+  .card__button {
+    margin: 32px 0 65px 0;
+  }
+  .advantages__list {
+    min-height: 610px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .feedback {
+    height: 614px;
+    background-position: center bottom;
+    background-image: url(../img/feedback-tablet.jpg);
+  }
+  .feedback__group {
+    height: 614px;
+    background-size: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .feedback__left {
+    margin-bottom: 48px;
   }
 }
 
@@ -1245,12 +1281,80 @@
             flex-direction: column;
     margin-bottom: 64px;
   }
-  .category__item {
-    width: 100%;
-  }
-  .category .category__item:not(:last-child) {
+  .category__item:not(:last-child) {
     width: 100%;
     margin: 0 0 32px 0;
+  }
+  .card-box__text {
+    margin-bottom: 64px;
+  }
+  .card {
+    margin-bottom: 15px;
+  }
+  .card__button {
+    margin: 40px 0 96px 0;
+  }
+  .advantages__list {
+    min-height: 610px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .advantages__list__info {
+    width: 341px;
+  }
+  .feedback {
+    height: 550px;
+    background-position: center bottom;
+    background-image: url(../img/feedback-tablet.jpg);
+  }
+  .feedback__group {
+    height: 550px;
+    background-size: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .feedback__left {
+    margin-bottom: 59px;
+    width: 343px;
+  }
+  .feedback__right {
+    width: 341px;
+  }
+  .footer {
+    height: 143px;
+  }
+  .footer__wrap {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .footer__left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .footer__right {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 40px;
   }
 }
 

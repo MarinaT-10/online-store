@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
+
     .container {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding: 0 16px;
     }
 
     .intro {
@@ -14,7 +14,7 @@
         }
 
         &__text {
-            width: 45%;
+            width: 44%;
         }
 
         & h1 {
@@ -33,9 +33,45 @@
         margin-bottom: 154px;
     }
     
-
     .category__item:not(:last-child) {
-               margin: 0 0 19px 0;
+                margin: 0 0 19px 0;
     }
-    
+
+    card-box__text {
+        margin-bottom: 72px;
+        
+    }
+    .card {
+    margin-bottom: 19px;
+
+    &__button {
+        margin: 32px 0 65px 0;
+    }
+}
+
+    .advantages {
+        &__list {
+            min-height: 610px;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+
+    .feedback {
+        height: 614px;
+        background-position: center bottom;
+       background-image: url(../img/feedback-tablet.jpg);
+        
+        &__group {
+            height: 614px;
+            background-size: 100%;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+        &__left {
+            margin-bottom: 48px;
+        }
+    }
 }
