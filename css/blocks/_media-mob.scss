@@ -10,13 +10,12 @@
 
     .intro {
         box-sizing: border-box;
-        min-height: 363px;   
+        min-height: 363px;
         display: flex;
-        align-items: center;    
+        align-items: center;
         justify-content: center;
         margin-bottom: 64px;
-        
-        
+
         &__wrap {
             background-image: none;
         }
@@ -39,14 +38,12 @@
     .category {
         flex-direction: column;
         margin-bottom: 64px;
-        
     }
     .category__item:not(:last-child) {
-            width: 100%;
-            margin: 0 0 32px 0;
-        }
+        width: 100%;
+        margin: 0 0 32px 0;
+    }
 
-   
     .card-box__text {
         margin-bottom: 64px;
     }
@@ -67,27 +64,26 @@
 
             &__info {
                 width: 341px;
-           }
+            }
         }
     }
 
     .feedback {
         height: 550px;
         background-position: center bottom;
-       background-image: url(../img/feedback-tablet.jpg);
-        
+        background-image: url(../img/feedback-tablet.jpg);
+
         &__group {
             height: 550px;
             background-size: 100%;
             flex-direction: column;
             justify-content: center;
-            
         }
 
         &__left {
             margin-bottom: 59px;
             width: 343px;
-        } 
+        }
         &__right {
             width: 341px;
         }
@@ -100,7 +96,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: flex-end;
-            
         }
 
         &__left {
@@ -110,5 +105,44 @@
             order: 1;
             margin: 40px;
         }
+    }
+    .catalog-menu {
+        &__group {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__left {
+            margin-bottom: 32px;
+        }
+    }
+
+    .filter-box {
+        height: 81px;
+    }
+
+    .filter span {
+        display: none;
+    }
+    .filter ::-webkit-details-marker {
+        display: none;
+    }
+
+    .filter__list {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .filter_menu_right {
+        min-width: 260px;
+    }
+
+    .list__button_wrap {
+        margin-bottom: 64px;
+        margin-top: 40px;
+    }
+
+    .filter__list:not(:last-child) {
+        margin-right: 23px;
     }
 }
