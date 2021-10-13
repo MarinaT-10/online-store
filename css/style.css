@@ -917,6 +917,7 @@
 
 .filter[open] > summary {
   color: #EF5B70;
+  fill: #EF5B70;
   outline: none;
   border: none;
 }
