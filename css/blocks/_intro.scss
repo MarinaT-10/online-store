@@ -11,10 +11,11 @@
         background-image: url(../img/men.png);
         background-repeat: no-repeat;
         background-position: -212px bottom;
+
     }
 
     &__text {
-        max-width: 377px;
+        width: 36%;
         border-left: 12px solid #f16d7f;
         padding-left: 16px;
     }

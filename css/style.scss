@@ -14,12 +14,16 @@
 @import "blocks/catalog-menu";
 @import "blocks/slider";
 @import "blocks/product";
+@import "blocks/media-tablet";
+@import "blocks/media-mob";
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     max-width: 1160px;
     width: 100%;

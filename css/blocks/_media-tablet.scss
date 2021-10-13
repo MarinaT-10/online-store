@@ -1,0 +1,41 @@
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .intro {
+        height: 80vh; 
+        margin-bottom: 20px;
+
+        &__wrap {
+            background-position: -110px bottom;
+            background-size: 62%;
+        }
+
+        &__text {
+            width: 45%;
+        }
+
+        & h1 {
+            font-size: 44px;
+            line-height: 53px;
+        }
+
+        & span {
+            font-size: 24px;
+            line-height: 29px;
+        }     
+          
+    }
+
+    .category {
+        margin-bottom: 154px;
+    }
+    
+
+    .category__item:not(:last-child) {
+               margin: 0 0 19px 0;
+    }
+    
+}
