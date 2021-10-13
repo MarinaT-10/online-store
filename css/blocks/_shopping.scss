@@ -17,6 +17,10 @@
         display: flex;
     }
 
+    &__forma {
+        width: 360px;
+    }
+
     & img {
         height: 100%;
         margin-right: 31px;
@@ -114,6 +118,7 @@
 
     &__checkout {
         height: 214px;
+        width: 360px;
         background: #f5f3f3;
         margin-bottom: 39px;
         margin-top: 57px;
@@ -165,8 +170,13 @@
             
         }
     }
+    
+    &__bottom:first-child {
+        margin-right: 192px;
+    }
+
+
     &__bottom {
-        width: 652px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 128px;

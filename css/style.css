@@ -114,6 +114,10 @@
   display: flex;
 }
 
+.shopping-cart__forma {
+  width: 360px;
+}
+
 .shopping-cart img {
   height: 100%;
   margin-right: 31px;
@@ -211,6 +215,7 @@
 
 .shopping-cart__checkout {
   height: 214px;
+  width: 360px;
   background: #f5f3f3;
   margin-bottom: 39px;
   margin-top: 57px;
@@ -267,8 +272,11 @@
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.shopping-cart__bottom:first-child {
+  margin-right: 192px;
+}
+
 .shopping-cart__bottom {
-  width: 652px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -744,7 +752,7 @@
 
 .registration {
   margin: 64px auto 96px;
-  height: 515px;
+  min-height: 515px;
 }
 
 .registration__wrap {
@@ -1188,7 +1196,8 @@
 
 @media (max-width: 1024px) {
   .container {
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .intro {
     height: 80vh;
@@ -1215,7 +1224,7 @@
   .category__item:not(:last-child) {
     margin: 0 0 19px 0;
   }
-  card-box__text {
+  .card-box__text {
     margin-bottom: 72px;
   }
   .card {
@@ -1258,6 +1267,50 @@
   .list__button_wrap {
     margin-bottom: 63px;
     margin-top: 40px;
+  }
+  .shopping-cart {
+    margin-top: 59px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .shopping-cart__cart {
+    width: 734px;
+  }
+  .shopping-cart__right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .shopping-cart__right__forma {
+    width: 360px;
+  }
+  .shopping-cart__right__checkout {
+    width: 360px;
+  }
+  .shopping-cart__bottom {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .shopping-cart__bottom:first-child {
+    margin-right: 48px;
+  }
+  .registration {
+    margin: 40px auto 96px;
+  }
+  .registration__info {
+    width: 354px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .registration__info h3 {
+    padding-bottom: 32px;
   }
 }
 
@@ -1444,6 +1497,26 @@
   .product__card {
     margin-top: 64px;
     margin-bottom: 64px;
+  }
+  .shopping-cart {
+    margin-top: 39px;
+  }
+  .registration {
+    margin: 40px auto 96px;
+    height: 895px;
+  }
+  .registration__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .registration__forma {
+    margin-bottom: 40px;
+  }
+  .registration__info {
+    font-size: 16px;
+    line-height: 19px;
   }
 }
 

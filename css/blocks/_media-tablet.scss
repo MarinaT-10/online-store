@@ -1,11 +1,11 @@
 @media (max-width: 1024px) {
-
     .container {
-        padding: 0 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .intro {
-        height: 80vh; 
+        height: 80vh;
         margin-bottom: 20px;
 
         &__wrap {
@@ -25,29 +25,27 @@
         & span {
             font-size: 24px;
             line-height: 29px;
-        }     
-          
+        }
     }
 
     .category {
         margin-bottom: 154px;
     }
-    
+
     .category__item:not(:last-child) {
-                margin: 0 0 19px 0;
+        margin: 0 0 19px 0;
     }
 
-    card-box__text {
+    .card-box__text {
         margin-bottom: 72px;
-        
     }
     .card {
-    margin-bottom: 19px;
+        margin-bottom: 19px;
 
-    &__button {
-        margin: 32px 0 65px 0;
+        &__button {
+            margin: 32px 0 65px 0;
+        }
     }
-}
 
     .advantages {
         &__list {
@@ -60,14 +58,13 @@
     .feedback {
         height: 614px;
         background-position: center bottom;
-       background-image: url(../img/feedback-tablet.jpg);
-        
+        background-image: url(../img/feedback-tablet.jpg);
+
         &__group {
             height: 614px;
             background-size: 100%;
             flex-direction: column;
             justify-content: center;
-            
         }
 
         &__left {
@@ -80,9 +77,48 @@
     }
 
     .list__button_wrap {
-    margin-bottom: 63px;
-    margin-top: 40px;
+        margin-bottom: 63px;
+        margin-top: 40px;
     }
 
-    
+    .shopping-cart {
+        margin-top: 59px;
+        flex-direction: column;
+
+        &__cart {
+            width: 734px;
+        }
+
+        &__right {
+            flex-direction: column;
+            justify-content: space-between;
+
+            &__forma {
+                width: 360px;
+            }
+            &__checkout {
+                width: 360px;
+            }
+        }
+        &__bottom {
+            align-items: center;
+        }
+        &__bottom:first-child {
+            margin-right: 48px;
+        }
+    }
+
+    .registration {
+        margin: 40px auto 96px;
+
+        &__info {
+            width: 354px;
+            font-size: 16px;
+            line-height: 19px;
+
+            & h3 {
+                padding-bottom: 32px;
+            }
+        }
+    }
 }
