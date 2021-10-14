@@ -16,7 +16,7 @@
 
     &__text {
         width: 36%;
-        border-left: 12px solid #f16d7f;
+        border-left: 12px solid $text-color;
         padding-left: 16px;
     }
 
@@ -35,6 +35,6 @@
     }
     
     &__decor {
-        color: #f16d7f;
+        color: $text-color;
     }
 }
