@@ -184,7 +184,29 @@
 
     .shopping-cart {
         margin-top: 39px;
+        &__cart {
+            height: 188px;
+        }
     }
+
+    .shopping-cart__text {
+        width: 144px;
+
+        & h3 {
+            font-size: 16px;
+            line-height: 19px;
+            margin: 13px auto 25px;
+        }
+
+        & li {
+            font-size: 14px;
+            line-height: 17px;
+            padding-bottom: 4px;
+        }
+    }
+
+
+    
 
     .registration {
         margin: 40px auto 96px;
@@ -201,5 +223,28 @@
             font-size: 16px;
             line-height: 19px;
         }
+    }
+
+    .nav {
+        height: 363px;
+        }
+}
+
+.shopping-cart__bottom:first-child {
+    margin-right: 9px;
+}
+
+
+.shopping-cart__bottom {
+       margin-bottom: 30px;
+    margin-top: 48px;
+
+    & button {
+        
+            font-size: 12px;
+        line-height: 14px;
+        color: #000000;
+        padding: 9px 18px;
+        
     }
 }
