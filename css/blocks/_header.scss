@@ -24,12 +24,16 @@
 
 .header__right {
     display: flex;
+    align-items: center;
 }
 
 .header__menu {
-    padding: 0 20px;
+    margin-right: 25px;
+    font-size: 38px;
     background-color: none;
     color: #fff;
+    vertical-align: middle;
+    text-align: center;
 }
 .header__nav {
     position: absolute;
@@ -97,6 +101,7 @@
 
 #burger {
     display: none;
+    text-align: center;
 }
 
 #burger:checked ~ .header__nav {
