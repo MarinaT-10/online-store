@@ -15,6 +15,23 @@
         margin-right: 41px;
     }
 
+    &__logo:hover {
+        opacity: 0.6;
+    }
+
+    &__serp:hover {
+        opacity: 0.6;
+    }
+
+    &__menu:hover {
+        opacity: 0.6;
+    }
+
+    &__item:hover {
+        opacity: 0.6;
+    }
+    
+
     &__item {
         &:not(:last-child) {
             margin-right: 33px;
@@ -35,6 +52,7 @@
     vertical-align: middle;
     text-align: center;
 }
+
 .header__nav {
     position: absolute;
     top: 80px;
@@ -103,6 +121,7 @@
     display: none;
     text-align: center;
 }
+
 
 #burger:checked ~ .header__nav {
     display: block;

@@ -24,6 +24,22 @@
   margin-right: 41px;
 }
 
+.header__logo:hover {
+  opacity: 0.6;
+}
+
+.header__serp:hover {
+  opacity: 0.6;
+}
+
+.header__menu:hover {
+  opacity: 0.6;
+}
+
+.header__item:hover {
+  opacity: 0.6;
+}
+
 .header__item:not(:last-child) {
   margin-right: 33px;
 }
@@ -684,6 +700,7 @@
   line-height: 19px;
   text-align: center;
   color: #ffffff;
+  z-index: 2;
 }
 
 .category__text span {
@@ -1685,6 +1702,10 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 .container {
