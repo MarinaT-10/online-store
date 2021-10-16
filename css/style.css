@@ -445,6 +445,7 @@
   background-image: url(../img/footer_back.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   text-align: center;
   font-style: normal;
   font-weight: normal;
@@ -603,7 +604,6 @@
 
 .advantages__info {
   width: 360px;
-  height: 134px;
   text-align: center;
 }
 
@@ -612,11 +612,11 @@
 }
 
 .advantages__info--sale {
-  padding-bottom: 28px;
+  padding-bottom: 19px;
 }
 
 .advantages__info--quality {
-  padding-bottom: 28px;
+  padding-bottom: 25px;
 }
 
 .advantages__info h4 {

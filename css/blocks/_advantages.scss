@@ -10,17 +10,18 @@
 
     &__info {
         width: 360px;
-        height: 134px;
         text-align: center;
+        // padding-bottom: 28px;
+
 
         &--avto {
             padding-bottom: 28px;
         }
         &--sale {
-            padding-bottom: 28px;
+            padding-bottom: 19px;
         }
         &--quality {
-            padding-bottom: 28px;
+            padding-bottom: 25px;
         }
 
         & h4 {
