@@ -1,8 +1,8 @@
 .catalog-menu {
     background: #f8f3f4;
     height: 148px;
-    
-    &__group{
+
+    &__group {
         height: 100%;
         display: flex;
         justify-content: space-between;
@@ -18,21 +18,19 @@
     }
 
     &__right {
-        font-family: Lato;
+        display: flex;
+    }
+
+    &__text {
         font-style: normal;
         font-weight: 300;
         font-size: 14px;
         line-height: 17px;
-        color: #636363; 
+        color: #636363;
 
-         & span {
-        font-style: normal;
+        &--span {
             font-weight: bold;
-            font-size: 14px;
-            line-height: 17px;
             color: #f16d7f;
-        }   
+        }
     }
-   
 }
-

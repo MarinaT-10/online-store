@@ -622,7 +622,7 @@
 .advantages__info h4 {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 19.96px;
   line-height: 24px;
   color: #fbfbfb;
   padding-bottom: 16px;
@@ -631,7 +631,7 @@
 .advantages__info p {
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 13.972px;
   line-height: 17px;
   text-align: center;
   color: #fbfbfb;
@@ -1148,7 +1148,12 @@
 }
 
 .catalog-menu__right {
-  font-family: Lato;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.catalog-menu__text {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -1156,11 +1161,8 @@
   color: #636363;
 }
 
-.catalog-menu__right span {
-  font-style: normal;
+.catalog-menu__text--span {
   font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
   color: #f16d7f;
 }
 
