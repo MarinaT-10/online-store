@@ -29,12 +29,17 @@
     position: relative;
     outline: none;
     border: none;
-    z-index: 3;
+    z-index: 3;    
+}
+
+svg {
+    margin-left: 11px;
 }
 
 .filter ::-webkit-details-marker {
     display: none;
 }
+
 
 .filter[open] {
     padding-left: 10px;

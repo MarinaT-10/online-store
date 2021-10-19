@@ -2,7 +2,7 @@
     background: hsl(240, 3%, 14%);
 
     &__list {
-        height: 341px;
+        min-height: 341px;
         display: flex;
         justify-content: space-between;
         align-items: center;

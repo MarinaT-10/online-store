@@ -5,12 +5,13 @@
     }
 
     .intro {
-        height: 80vh;
+        height: 368px;
         margin-bottom: 20px;
 
         &__wrap {
-            background-position: -110px bottom;
-            background-size: 62%;
+            min-height: 368px;
+            background-image: url(../img/men_tablet.png);
+            background-position: -99px bottom;
         }
 
         &__text {
@@ -40,7 +41,12 @@
         margin-bottom: 72px;
     }
     .card {
-        margin-bottom: 19px;
+        margin-bottom: 16px;
+        &:last-child {
+            visibility: hidden;
+            display: none;
+        }
+        
 
         &__button {
             margin: 32px 0 65px 0;

@@ -9,7 +9,6 @@
     }
 
     .intro {
-        box-sizing: border-box;
         min-height: 363px;
         display: flex;
         align-items: center;
@@ -49,7 +48,12 @@
     }
 
     .card {
+        width: 100%;
         margin-bottom: 15px;
+        &:last-child {
+            visibility: hidden;
+            display: none;
+        }
 
         &__button {
             margin: 40px 0 96px 0;
@@ -63,7 +67,7 @@
             justify-content: space-around;
 
             &__info {
-                width: 341px;
+                width: 60%;
             }
         }
     }
@@ -82,10 +86,16 @@
 
         &__left {
             margin-bottom: 59px;
-            width: 343px;
+            width: 90%;
         }
         &__right {
-            width: 341px;
+            width: 90%;
+        }
+    }
+
+    .feedback__button {
+        & input {
+            padding: 6px 61px 5px 21px;
         }
     }
 

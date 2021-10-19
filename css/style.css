@@ -563,7 +563,7 @@
 }
 
 .intro__wrap {
-  height: 100%;
+  min-height: 764px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -607,7 +607,7 @@
 }
 
 .advantages__list {
-  height: 341px;
+  min-height: 341px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1071,6 +1071,10 @@
   z-index: 3;
 }
 
+svg {
+  margin-left: 11px;
+}
+
 .filter ::-webkit-details-marker {
   display: none;
 }
@@ -1176,11 +1180,13 @@
   font-size: 14px;
   line-height: 17px;
   color: #636363;
+  text-decoration: none;
 }
 
 .catalog-menu__text--span {
   font-weight: bold;
   color: #f16d7f;
+  padding-left: 5px;
 }
 
 .slider {
@@ -1358,12 +1364,13 @@
     padding-right: 16px;
   }
   .intro {
-    height: 80vh;
+    height: 368px;
     margin-bottom: 20px;
   }
   .intro__wrap {
-    background-position: -110px bottom;
-    background-size: 62%;
+    min-height: 368px;
+    background-image: url(../img/men_tablet.png);
+    background-position: -99px bottom;
   }
   .intro__text {
     width: 44%;
@@ -1386,7 +1393,11 @@
     margin-bottom: 72px;
   }
   .card {
-    margin-bottom: 19px;
+    margin-bottom: 16px;
+  }
+  .card:last-child {
+    visibility: hidden;
+    display: none;
   }
   .card__button {
     margin: 32px 0 65px 0;
@@ -1484,8 +1495,6 @@
     display: none;
   }
   .intro {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
     min-height: 363px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1527,7 +1536,12 @@
     margin-bottom: 64px;
   }
   .card {
+    width: 100%;
     margin-bottom: 15px;
+  }
+  .card:last-child {
+    visibility: hidden;
+    display: none;
   }
   .card__button {
     margin: 40px 0 96px 0;
@@ -1542,7 +1556,7 @@
         justify-content: space-around;
   }
   .advantages__list__info {
-    width: 341px;
+    width: 60%;
   }
   .feedback {
     height: 550px;
@@ -1562,10 +1576,13 @@
   }
   .feedback__left {
     margin-bottom: 59px;
-    width: 343px;
+    width: 90%;
   }
   .feedback__right {
-    width: 341px;
+    width: 90%;
+  }
+  .feedback__button input {
+    padding: 6px 61px 5px 21px;
   }
   .footer {
     height: 143px;
