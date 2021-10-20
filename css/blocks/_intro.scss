@@ -1,16 +1,17 @@
 .intro {
     background-color: #f1e4e6;
-    height: 764px;
+    height: 100vh;
     margin: 0 0 65px 0;
 
     &__wrap {
-        min-height: 764px;
+        min-height: 100vh;
         display: flex;
         align-items: center;
         justify-content: flex-end;
         background-image: url(../img/men.png);
         background-repeat: no-repeat;
-        background-position: -212px bottom;
+        background-position: -231px bottom;
+        background-size: 74%;
 
     }
 

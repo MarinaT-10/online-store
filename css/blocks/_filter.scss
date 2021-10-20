@@ -36,10 +36,13 @@ svg {
     margin-left: 11px;
 }
 
-.filter ::-webkit-details-marker {
-    display: none;
-}
 
+details > summary {
+    list-style: none;
+  }
+  details > summary::marker {
+    display: none;
+  }
 
 .filter[open] {
     padding-left: 10px;

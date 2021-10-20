@@ -4,7 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 79px;
+    }
+    &__left {
+padding-top: 30px;
+padding-bottom: 30px;
     }
 
     & p {
