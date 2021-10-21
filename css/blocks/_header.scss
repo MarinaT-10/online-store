@@ -55,7 +55,7 @@
 
 .header__nav {
     position: absolute;
-    top: 80px;
+    top: 90px;
     right: 0;
     z-index: 10;
     /* display: none; */
@@ -113,8 +113,8 @@
 
 .nav__close {
     position: absolute;
-    right: -10px;
-    top: -10px;
+    right: 10px;
+    top: 10px;
 }
 
 #burger {

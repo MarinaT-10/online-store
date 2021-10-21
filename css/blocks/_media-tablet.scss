@@ -6,10 +6,13 @@
 
     .intro {
         margin-bottom: 20px;
+        max-height: 368px;
 
         &__wrap {
-            background-position: -160px bottom;
-            background-size: 78%;
+            max-height: 368px;
+            background-position: -110px bottom;
+            background-image: url(../img/men_tablet.png);
+            
         }
 
         &__text {
@@ -151,6 +154,11 @@
 
     .registration {
         margin: 40px auto 96px;
+
+        &__wrap {
+            justify-content: center;
+            gap: 22px;
+        }
 
         &__info {
             width: 354px;

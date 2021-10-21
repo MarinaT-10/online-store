@@ -81,7 +81,7 @@
 
 .header__nav {
   position: absolute;
-  top: 80px;
+  top: 90px;
   right: 0;
   z-index: 10;
   /* display: none; */
@@ -140,8 +140,8 @@
 
 .nav__close {
   position: absolute;
-  right: -10px;
-  top: -10px;
+  right: 10px;
+  top: 10px;
 }
 
 #burger {
@@ -568,12 +568,12 @@
 
 .intro {
   background-color: #f1e4e6;
-  height: 100vh;
+  height: 764px;
   margin: 0 0 65px 0;
 }
 
 .intro__wrap {
-  min-height: 100vh;
+  height: 764px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,7 +586,6 @@
   background-image: url(../img/men.png);
   background-repeat: no-repeat;
   background-position: -231px bottom;
-  background-size: 74%;
 }
 
 .intro__text {
@@ -963,17 +962,19 @@
 .registration__info {
   width: 652px;
   font-style: normal;
-  font-weight: 300;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
 }
 
 .registration__info h3 {
+  font-weight: normal;
   padding-bottom: 22px;
+  font-style: normal;
 }
 
 .registration__info ul {
+  font-weight: normal;
   list-style-type: none;
   margin-top: 21px;
 }
@@ -1384,10 +1385,12 @@ details > summary::marker {
   }
   .intro {
     margin-bottom: 20px;
+    max-height: 368px;
   }
   .intro__wrap {
-    background-position: -160px bottom;
-    background-size: 78%;
+    max-height: 368px;
+    background-position: -110px bottom;
+    background-image: url(../img/men_tablet.png);
   }
   .intro__text {
     width: 44%;
@@ -1530,6 +1533,12 @@ details > summary::marker {
   }
   .registration {
     margin: 40px auto 96px;
+  }
+  .registration__wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 22px;
   }
   .registration__info {
     width: 354px;

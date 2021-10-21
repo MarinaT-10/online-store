@@ -37,18 +37,22 @@
     &__info {
         width: 652px;
         font-style: normal;
-        font-weight: 300;
         font-size: 24px;
         line-height: 29px;
         color: #000000;
+        
 
         & h3 {
+            font-weight: normal;
             padding-bottom: 22px;
+            font-style: normal;
         }
 
         & ul {
+            font-weight: normal;
             list-style-type: none;
             margin-top: 21px;
+            
         }
 
         & li {
