@@ -1204,6 +1204,10 @@ details > summary::marker {
   padding-left: 5px;
 }
 
+.catalog-menu__text--man {
+  padding-left: 5px;
+}
+
 .slider {
   height: 777px;
   background: #f7f7f7;
@@ -1220,7 +1224,7 @@ details > summary::marker {
 }
 
 .slider__img {
-  height: 597px;
+  height: 100%;
 }
 
 .slider__btn {
@@ -1281,7 +1285,7 @@ details > summary::marker {
   line-height: 17px;
   text-align: center;
   color: #5e5e5e;
-  width: 555px;
+  width: 52%;
   margin: 48px auto 32px;
 }
 
@@ -1538,6 +1542,9 @@ details > summary::marker {
   .nav {
     height: 80vh;
   }
+  .slider {
+    height: 624px;
+  }
 }
 
 @media (max-width: 667px) {
@@ -1724,7 +1731,8 @@ details > summary::marker {
     width: 100%;
   }
   .product__text {
-    width: 326px;
+    width: 100%;
+    line-height: 143.1%;
   }
   .product__price {
     padding-bottom: 32px;
@@ -1737,12 +1745,10 @@ details > summary::marker {
     line-height: 12px;
   }
   .slider {
-    width: 100%;
-    height: 454px;
+    height: 374px;
   }
   .slider__img {
-    width: 90%;
-    height: 454px;
+    height: 86%;
   }
   .product__card {
     margin-top: 64px;
