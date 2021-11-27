@@ -1,0 +1,181 @@
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .intro {
+        margin-bottom: 20px;
+        max-height: 368px;
+
+        &__wrap {
+            max-height: 368px;
+            background-position: -110px bottom;
+            background-image: url(../img/men_tablet.png);
+            
+        }
+
+        &__text {
+            width: 44%;
+        }
+
+        & h1 {
+            font-size: 44px;
+            line-height: 53px;
+        }
+
+        & span {
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+
+    .category {
+        margin-bottom: 154px;
+    }
+
+    .category__item:not(:last-child) {
+        margin: 0 0 19px 0;
+    }
+
+    .card-box__text {
+        margin-bottom: 72px;
+    }
+
+    .card-group {
+        justify-content: center;
+    }
+
+    .card {
+        margin-bottom: 16px;
+        &:last-child {
+            visibility: hidden;
+            display: none;
+        }
+
+        &:nth-child(odd) {
+            margin-right: 20px;
+        }
+
+        &__button {
+            margin: 32px 0 65px 0;
+        }
+    }
+
+    .advantages {
+        &__list {
+            min-height: 610px;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        &__info {
+            width: 47%;
+        }
+    }
+
+    .feedback {
+        height: 614px;
+        background-position: center bottom;
+        background-image: url(../img/feedback-tablet.jpg);
+
+        &__group {
+            height: 614px;
+            background-size: 100%;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__left {
+            width: 46%;
+            margin-bottom: 48px;
+        }
+
+        &__right {
+            width: 60%;
+        }
+    }
+
+    .filter-box {
+        height: 81px;
+    }
+
+    .list__button_wrap {
+        margin-bottom: 63px;
+        margin-top: 40px;
+    }
+
+    .shopping-cart {
+        margin-top: 59px;
+        flex-direction: column;
+        justify-content: center;
+
+        &__cart {
+            width: 734px;
+        }
+
+        &__left {
+            margin-right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__right {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-bottom: 128px;
+        }
+        &__forma {
+            margin-right: 15px;            
+        }
+
+        &__checkout {
+            margin-top: 0;
+        }
+
+        &__close {
+            height: 10px;
+            width: 10px;
+            top: 17px;
+            right: 12px;
+        }
+
+        &__bottom {
+            align-items: center;
+            gap: 48px;
+        }
+
+        &__bottom:first-child {
+            margin-right: 48px;
+        }
+    }
+
+    .registration {
+        margin: 40px auto 96px;
+
+        &__wrap {
+            justify-content: center;
+            gap: 22px;
+        }
+
+        &__info {
+            width: 354px;
+            font-size: 16px;
+            line-height: 19px;
+
+            & h3 {
+                padding-bottom: 32px;
+            }
+        }
+    }
+    .nav {
+        height: 80vh;
+    }
+
+    .slider {
+        height: 624px;
+    }
+
+}

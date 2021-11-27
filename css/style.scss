@@ -1,0 +1,67 @@
+@import "blocks/wrapper";
+@import "blocks/header";
+@import "blocks/var";
+@import "blocks/footer";
+@import "blocks/mixin";
+@import "blocks/cart-top";
+@import "blocks/shopping";
+@import "blocks/feedback";
+@import "blocks/intro";
+@import "blocks/advantages";
+@import "blocks/category";
+@import "blocks/card";
+@import "blocks/registration";
+@import "blocks/filter";
+@import "blocks/catalog-menu";
+@import "blocks/slider";
+@import "blocks/product";
+@import "blocks/media-tablet";
+@import "blocks/media-mob";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.footer__center_text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+
+.list__button_wrap {
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    width: 284px;
+    margin: 48px auto 96px;
+}
+
+.list__button {
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+.list__button_left {
+    padding-right: 14px;
+}
+
+
+

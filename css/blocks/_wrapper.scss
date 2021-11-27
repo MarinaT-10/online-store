@@ -1,0 +1,9 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-top{
+    flex-grow: 1;
+}
