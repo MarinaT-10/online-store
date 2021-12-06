@@ -1,0 +1,113 @@
+.product {
+    margin-bottom: 128px;
+    border: 1px solid #eaeaea;
+    margin-top: -50px;
+    background: #ffffff;
+    border: 1px solid #EAEAEA;
+
+
+    &__title {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #f16d7f;
+        text-align: center;
+
+        &:first-child {
+            border-bottom: 3px solid #ef5b70;
+            width: 63px;
+            margin: 65px auto 0px;
+            padding-bottom: 12px;
+        }
+
+        &--black {
+            padding-top: 12px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+            color: #4d4d4d;
+            text-align: center;
+        }
+    }   
+    
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #5e5e5e;
+        width: 52%;
+        margin: 48px auto 32px;
+           }
+    &__price {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ef5b70;
+        padding-bottom: 65px;
+        border-bottom: 1px solid #eaeaea;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 64px;
+    }
+
+    &__list {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6f6e6e;
+    }
+
+    &__list:not(:last-child) {
+        margin-right: 23px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & button {
+        cursor: pointer;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #f26376;
+        padding: 15px 57px 15px 24px;
+        background: none;
+        border: 1px solid #ff6a6a;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 48px auto 64px;
+        &:hover {
+            background: $text-color;
+            color: #ffffff;
+        }
+
+        & img {
+            padding-right: 23px;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}
+
+.product__card {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}

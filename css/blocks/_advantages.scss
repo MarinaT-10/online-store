@@ -1,0 +1,46 @@
+.advantages {
+    background: hsl(240, 3%, 14%);
+
+    &__list {
+        min-height: 341px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info {
+        width: 31.5%;
+        text-align: center;
+        // padding-bottom: 28px;
+
+        &--avto {
+            padding-bottom: 28px;
+        }
+        &--sale {
+            padding-bottom: 19px;
+        }
+        &--quality {
+            padding-bottom: 25px;
+        }
+
+        & h4 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 19.96px;
+            line-height: 24px;
+            color: #fbfbfb;
+            padding-bottom: 16px;
+        }
+
+        & p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 13.972px;
+            line-height: 17px;
+            text-align: center;
+            color: #fbfbfb;
+        }
+    }
+
+    
+}

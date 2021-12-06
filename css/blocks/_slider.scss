@@ -1,0 +1,27 @@
+.slider {
+    height: 777px;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F7F7F7;
+    
+    &__img {
+        height: 100%;
+    }
+
+    &__btn {
+        height: 47px;
+        width: 47px;
+        background: rgba(42, 42, 42, 0.15);
+        border: none;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        
+        &:hover{
+            fill: #F16D7F;
+        }
+        & svg:active{
+            fill: #F16D7F;
+        }
+    }
+}
